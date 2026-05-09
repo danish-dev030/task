@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Secrets / local env (keep *.example tracked)
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Frontend (Vite)
+frontend/dist/
+
+# Backend (local uploads; S3 is used in production)
+backend/uploads/
+
+# OS / logs
+.DS_Store
+*.log
+npm-debug.log*
