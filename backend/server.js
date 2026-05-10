@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: ['http://localhost:5173', 'https://task-theta-drab-11.vercel.app'],
+    origin: ['http://localhost:5173', 'https://task-theta-drab-11.vercel.app', 'http://pixora-assign.s3-website-us-east-1.amazonaws.com'],
     credentials: true
   })
 );
